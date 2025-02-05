@@ -15,7 +15,6 @@ public class BankAccount {
         return balance;
     }
 
-
     // Method to deposit money into the account
     public void deposit(double amount) {
         if (amount > 0) {
@@ -24,7 +23,6 @@ public class BankAccount {
             throw new IllegalArgumentException("Deposit amount must be greater than 0.");
         }
     }
-
 
     // Method to withdraw money from the account
     public void withdraw(double amount) {
