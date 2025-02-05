@@ -8,6 +8,8 @@ public class TransactionService {
     }
 
     // Method to process a withdrawal
-
+    public void processWithdraw(BankAccount account, double amount) {
+        account.withdraw(amount);
+    }
 }
 
