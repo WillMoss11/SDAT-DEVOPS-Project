@@ -36,6 +36,11 @@ public class BankAccount {
             throw new IllegalArgumentException("Insufficient funds.");
         }
     }
+
+    // Getter for the account number
+    public String getAccountNumber() {
+        return accountNumber;
+    }
 }
 
 
