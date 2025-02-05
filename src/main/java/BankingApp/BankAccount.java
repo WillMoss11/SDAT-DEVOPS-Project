@@ -29,7 +29,7 @@ public class BankAccount {
         if (amount > 0 && amount <= balance) {
             balance -= amount;
         } else if (amount <= 0) {
-            throw new IllegalArgumentException("Withdraw amount must be greater than 0.");
+            throw new IllegalArgumentException("Withdrawal amount must be greater than 0.");
         } else {
             throw new IllegalArgumentException("Insufficient funds.");
         }

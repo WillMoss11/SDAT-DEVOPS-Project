@@ -14,5 +14,9 @@ public class BankingAppMain {
         // Perform a deposit of 500
         transactionService.processDeposit(account, 500);
         System.out.println("After deposit of $500: $" + account.getBalance());
+
+        // Perform withdrawal of 200
+        transactionService.processWithdrawal(account, 200);
+        System.out.println("After withdrawal of $200: $" + account.getBalance());
     }
 }
