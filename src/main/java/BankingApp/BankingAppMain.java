@@ -18,5 +18,12 @@ public class BankingAppMain {
         // Perform withdrawal of 200
         transactionService.processWithdrawal(account, 200);
         System.out.println("After withdrawal of $200: $" + account.getBalance());
+
+        // Attempt to withdraw more than the current balance
+        try {
+            transactionService.processWithdrawal(account, 2000);
+        } catch (IllegalArgumentException e) {
+            System.out.println("Error: " + e.getMessage());
+        }
     }
 }
