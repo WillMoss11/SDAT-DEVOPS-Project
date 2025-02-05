@@ -7,5 +7,12 @@ public class BankingAppMain {
 
         // Create an instance of TransactionService to handle deposits and withdrawals
         TransactionService transactionService = new TransactionService();
+
+        // Display the initial balance
+        System.out.println("Initial Balance: $" + account.getBalance());
+
+        // Perform a deposit of 500
+        transactionService.processDeposit(account, 500);
+        System.out.println("After deposit of $500: $" + account.getBalance());
     }
 }
