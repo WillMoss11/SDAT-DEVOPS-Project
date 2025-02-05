@@ -25,6 +25,7 @@ public class BankAccountTest {
         Exception exception = assertThrows(IllegalArgumentException.class, () -> {
             account.withdraw(2000);
         });
+        assertEquals("Insufficient funds.", exception.getMessage(), "Should throw an exception if there are insufficient funds.");
     }
 }
 
