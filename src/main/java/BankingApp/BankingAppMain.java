@@ -23,7 +23,7 @@ public class BankingAppMain {
         try {
             transactionService.processWithdrawal(account, 2000);
         } catch (IllegalArgumentException e) {
-            System.out.println("Error: " + e.getMessage());
+            System.out.println("Attempting a withdrawal of $2000 - Error: " + e.getMessage());
         }
     }
 }
