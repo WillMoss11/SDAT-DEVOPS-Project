@@ -14,7 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <!-- Add JUnit dependencies -->
+    <!-- Yes, I did have problems adding these. Lots of trial and error. -->
     <dependencies>
         <!-- JUnit 5 API (for writing tests) -->
         <dependency>

@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class BankAccountTest {
 
+    // Test for depositing money into the account
     @Test
     public void testDeposit() {
         BankAccount account = new BankAccount("123456", 1000);
@@ -12,6 +13,7 @@ public class BankAccountTest {
         assertEquals(1500, account.getBalance(), "Deposit should increase the balance by the deposit amount.");
     }
 
+    // Test for withdrawing money from the account
     @Test
     public void testWithdrawal() {
         BankAccount account = new BankAccount("123456", 1000);
@@ -19,6 +21,7 @@ public class BankAccountTest {
         assertEquals(800, account.getBalance(), "Withdrawal should decrease the balance by the withdrawal amount.");
     }
 
+    // Test for withdrawing too much resulting in insufficient funds
     @Test
     public void testInsufficientFunds() {
         BankAccount account = new BankAccount("123456", 1000);
