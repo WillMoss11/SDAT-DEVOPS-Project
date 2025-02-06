@@ -7,7 +7,7 @@
 ###
 
 
-<p align="left">Photo</p>
+![BankAccount.png](ScreenShots/BankAccount.png)
 
 ###
 
@@ -19,7 +19,7 @@
 
 ###
 
-<p align="left">Photo</p>
+![Transaction.png](ScreenShots/Transaction.png)
 
 ###
 
@@ -31,11 +31,11 @@
 
 ###
 
-<p align="left">Photo</p>
+![Withdraw.png](ScreenShots/Withdraw.png)
 
 ###
 
-<p align="left">Why it’s clean: The error handling is clear, and the error messages are descriptive. This makes it clear why an operation failed and is good in debugging.</p>
+<p align="left">Why it’s clean: The error handling is clear, and the error messages are descriptive. This makes it clear why an operation failed and is good at debugging.</p>
 
 ###
 
