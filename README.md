@@ -95,6 +95,6 @@
 
 ###
 
-<p align="left">I did have a few problems I ran into. The first was the Test Failures, for some reason I could not get the JUnit imports to work on the Test file. Figured out it was the incorrect version....oops<br>The second problem I ran into was the Actions setup on GitHub. I Had to manually pull it through IntelliJ with a new test file commit. Fortunately, I fixed it. Unfortunately, I am not quite sure how I did it.</p>
+<p align="left">I did have a few problems I ran into. The first was the Test Failures, for some reason I could not get the JUnit imports to work on the Test file. Figured out it was the incorrect version....oops<br>The second problem I ran into was the Actions setup on GitHub. I Had to manually pull it through IntelliJ with a new test file commit. Fortunately, I fixed it.</p>
 
 ###
